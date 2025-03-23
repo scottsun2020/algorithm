@@ -8,5 +8,7 @@ def fibonacci(n):
         fib_num[i] = fib_num[i-1] + fib_num[i-2]
     return fib_num
 
-#print a list of 5
+#print a list of 10
 print(fibonacci(10))
+#output is [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+#runtime is O(n) since the array has been created at begin and one iteration of length of array will complete the task
